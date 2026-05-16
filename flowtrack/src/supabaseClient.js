@@ -8,4 +8,4 @@ if (!supabaseUrl || !supabaseAnonKey) {
   console.error("Missing Supabase environment variables!");
 }
 
-export const supabase = createClient(supabaseUrl, sb_publishable_FBvMYl6OhjokZub93tpNTA_FK6HI-Yp);
+export const supabase = createClient('https://qthgnuefbnmzwgxxvrfi.supabase.co', 'sb_publishable_FBvMYl6OhjokZub93tpNTA_FK6HI-Yp');
